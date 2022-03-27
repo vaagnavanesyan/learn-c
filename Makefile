@@ -1,7 +1,5 @@
-CFLAGS=-Wall -g
-
 all: clean
-	cc app.c -o app
+	cc -Wall -g app.c -o app
 
 clean:
 	rm -f app

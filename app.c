@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-    int distance = 100;
-    printf("You are %d miles away.\n", distance);
+    int age = 10;
+    int height = 72;
+
+    printf("I am %d years old.\n", age);
+    printf("I am %d inches tall.\n", height);
     return 0;
 }
